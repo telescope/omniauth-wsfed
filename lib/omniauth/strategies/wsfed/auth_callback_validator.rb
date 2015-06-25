@@ -21,7 +21,7 @@ module OmniAuth
           validate_issuer!
           validate_audience!
           validate_token_expiration!
-          validate_claims!
+#          validate_claims!
           validate_uid!
 
           true
