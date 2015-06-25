@@ -22,7 +22,7 @@ module OmniAuth
           validate_audience!
           validate_token_expiration!
 #          validate_claims!
-          validate_uid!
+          #validate_uid!
 
           true
         end
